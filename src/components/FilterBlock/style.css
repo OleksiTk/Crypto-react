@@ -1,0 +1,13 @@
+.filter-block {
+  padding-top: 20px;
+}
+.input {
+  background-color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 15px;
+}
+.input:hover {
+  border: 1px solid rgb(83, 98, 255);
+}
