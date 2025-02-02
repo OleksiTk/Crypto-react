@@ -27,7 +27,7 @@ export default function Main() {
       <div className={styles.main}>
         <Card addbalance={AddBlance} balance={balance} />
         <FilterBlokc setCoins={setFilters} coins={coins} />
-        {coins ? <CardList coins={filtercoins} /> : <div>Loading...</div>}
+        {coins ? <CardList coins={filtercoins} /> : <div>Loading..</div>}
       </div>
     </Context.Provider>
   );
